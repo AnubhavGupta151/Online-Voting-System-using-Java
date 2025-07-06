@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vote Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h2>Vote for Your Candidate</h2>
+    <form action="vote" method="POST">
+        <!-- Add Unique ID Field -->
+        <!-- <label for="uniqueId">Enter your Unique ID:</label>
+        <input type="text" id="uniqueId" name="uniqueId" required><br> -->
+
+        <label for="candidate">Select a Candidate:</label>
+        <select id="candidate" name="candidate" required>
+            <option value="Anubhav">Anubhav</option>
+            <option value="Divyansh">Divyansh</option>
+            <option value="Atul">Atul</option>
+        </select>
+        <br>
+        <button type="submit">Vote</button>
+    </form>
+</body>
+</html>
